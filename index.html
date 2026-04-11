@@ -14,19 +14,20 @@ html, body {
 
 main {
     font-family: 'Rajdhani', sans-serif;
-    width: 600px;
+    width: 640px;
     margin: 40px auto;
     font-size: 25px;
-    font-weight: 600;
+    font-weight: 400;
     color: #41423F;
 }
-img#logo {
+img.span {
     width: 100%;
     display: block;
 }
 
 .contact {
     margin-top: 20px;
+    font-weight: 600;
 }
 
 main a {
@@ -40,9 +41,6 @@ main a:hover {
     transition-duration: 100ms;
 }
 
-.under-construction {
-    margin-top: 100px;
-}
 
 .under-construction img {
     display: inline-block;
@@ -56,8 +54,11 @@ main a:hover {
 
     <body>
         <main>
-            <img id="logo" src="logo.svg" alt="logo" />
+            <img class="span" src="logo.svg" alt="logo" />
             <p class="contact">contact: <a href="mailto:bert.severijnen@isc-s.com">bert.severijnen@isc-s.com</a></p>
+            <p style="font-size: 0.8em">Bezoek op 6 mei 2026 de workshop van ISC-S op het Engineering Event Safety met als onderwerp:</p>
+            <p style="font-size: 0.8em; font-weight: 600;">Praktisch toepassen van de (initiële) Risicobeoordeling o.b.v. de EN&#8209;ISO&nbsp;12100, als verplichte stop voor CE markeringen van machines.</p>
+            <p><img class="span" src="engineering_event_safety_banner.png" alt="event banner" /></p>
             <p class="under-construction"><img src="under_construction.png" alt="under construction sign" /> construction in progress</p>
         </main>
     </body>
